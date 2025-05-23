@@ -34,7 +34,7 @@ function associate() {
     const id = data[2];
 
     if (type === 0) {
-      if (msg === 1) log("Associated successfully (Client ID: ${id})");
+      if (msg === 1) log(`Associated successfully (Client ID: ${id})`);
       else if (msg === 2) log("Association failed");
       else if (msg === 3) log("Client ID already in use");
     } else if (type === 1) {
