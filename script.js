@@ -18,7 +18,7 @@ function associate() {
     return;
   }
 
-  ws = new WebSocket("wss://6250-2402-3a80-4245-a19c-9c9b-6640-94b-4768.ngrok-free.app"); // Replace with your LAN IP
+  ws = new WebSocket("wss://cb8c23741979.ngrok-free.app"); // Replace with your LAN IP
   ws.binaryType = "arraybuffer";
 
   ws.onopen = () => {
