@@ -14,9 +14,10 @@ A lightweight WebSocket messenger built with a custom binary protocol, featuring
 
 ```
 .
-├── server.py          # WebSocket server in Python
-├── client.html        # Client interface & logic
+├── index.html          #  Optional styling
+├── script.js        # Client interface & logic
 ├── style.css          # Optional styling
+├── websocketserver.py       # WebSocket server in Python
 └── README.md          # This file
 ```
 
